@@ -47,9 +47,18 @@ form > hr{
     margin-bottom: 27px;
 }
 
+.hide-eye {
+
+    width: 16px;
+    position:relative;
+    left: 326px;
+    bottom: 36px;
+    
+    
+}
+
 .text-input{
     padding: 17px 16px;
-    margin-bottom: 12px;
     border-radius: 7px;
     border: 1px solid #dddfe2;
     font-size: 16px;
@@ -64,6 +73,12 @@ form > hr{
     
 }
 
+.text-input1{
+    margin-bottom: 12px;
+}
+
+
+
 #login-btn{
     background-color: #0866ff;
     color: white;
@@ -75,7 +90,7 @@ form > hr{
     border-radius: 6px;
     font-size: 20px;
     padding: 11px ;
-    margin-top: 8px;
+   
 }
 
 #login-btn:hover{
