@@ -19,9 +19,11 @@
 
     <section class="sign-in-sect">
         <form>
-            <input class="text-input text-input1" type="email" placeholder="Email address or phone number">
-            <input class="text-input text-input2" type="password" placeholder="Password">
-            <img src="images/hide.png" class="hide-eye" alt="">
+            <input id="email-input" class="text-input" type="email" placeholder="Email address or phone number">
+            <div class="text-input pass-div">
+                <input id="pass-input"  type="password" placeholder="Password">
+                <img src="images/hide.png" id="eye" alt="">
+            </div>
             <input id="login-btn" type="submit" value="Log in">
             <a href="">Forgotten password?</a>
             <hr>
@@ -31,5 +33,6 @@
         <p><a href="">Create a Page</a> for a celebrity, brand or business.</p>
     </section>
     
+    <script src="script.js"></script>
 </body>
 </html>
